@@ -1,10 +1,10 @@
 # romerobase
 
-QUAKEWORLD\newline
+QUAKEWORLD
 
-Romero Base\newline
+Romero Base
 
-X3 Collection\newline
+X3 Collection
 
 1 : traditional : Romero Base     - (romerobase.bsp)
 2 : spawns +2   : Romero Base X   - (romerobase_x.bsp)
