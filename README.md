@@ -36,7 +36,7 @@ Bla bla bla, etc, lolz
 
 --------------------------------------------------------
 
-#Players
+# Players
 
 If you are a player you can download one of these zips :
 
