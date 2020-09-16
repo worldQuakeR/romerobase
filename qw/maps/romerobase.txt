@@ -1,0 +1,88 @@
+
+
+
+  "Romero Base" [romerobase.bsp]
+
+  by Q****R - August/September 2020
+
+  Based on John Romero's DM3 map "The Abandoned Base"
+
+
+
+  There are three (3) flavours :
+
+  #1 Romero Base
+  #2 Romero Base X (like the first but has 2 extra spawn points)
+  #3 Romero Base FFA (weapon/water-room structural changes) + (2RL 2LG 2GL)
+
+
+
+  ------
+  files:
+  ------
+  > romerobase.txt        : ... this file
+
+  #
+  # Romero Base
+  # ... all items and entities the same as dm3 "The Abandoned Base" [Thus, only 6 spawns]
+  #
+  > romerobase.bsp        : map
+  > romerobase.lit        : coloured lighting
+  > romerobase.loc        : locations [ same as dm3.loc (version: 12.aug.2020 Hangtime/Flintheart) ]
+  > /textures/levelshots/ : ...
+  > /textures/romerobase/ : 24 bit textures [TGA's]
+
+  #
+  # Romero Base X
+  # ... Like romerobase.bsp but with 2 extra spawns
+  #
+  > romerobase_x.bsp        : map
+  > romerobase_x.lit        : coloured lighting
+  > romerobase_x.loc        : locations [ same as dm3.loc (version: 12.aug.2020 Hangtime/Flintheart) ]
+  > /textures/levelshots/   : ...
+  > /textures/romerobase_x/ : contains .link files to /romerobase/ textures
+
+  #
+  # Romero Base FFA
+  # ... Like romerobase.bsp but ... :):):)
+  #
+  > romerobase_ffa.bsp        : map
+  > romerobase_ffa.lit        : coloured lighting
+  > romerobase_ffa.loc        : locations [ same as dm3.loc (version: 12.aug.2020 Hangtime/Flintheart) ]
+  > /textures/levelshots/     : ...
+  > /textures/romerobase_ffa/ : contains .link files to /romerobase/ textures
+
+  #
+  # NOTE
+  #
+  Each .bsp file has lower quality (8bit) textures 'baked-in' the .bsp file itself.
+  If you don't have the higher quality (24 bit) texture files installed, you will see the lower quality textures.
+
+
+  ----------
+  src files:
+  ----------
+  > romerobase.map     : map source
+  > romerobase_x.map   : map source
+  > romerobase_ffa.map : map source
+  > romerobase.wad     : 8bit texture.wad [to be used with the .map source file(s)]
+
+  ---------------------------------
+  map compile tools used (windows):
+  ---------------------------------
+  > BSP : tyrericw qbsp.exe
+  > VIS : tyrericw vis.exe
+  > LIGHT : hmap2.exe (extra8x8)
+
+  ---------------------------------
+  editor used
+  ---------------------------------
+  > netRadiant
+
+
+  Romero Base - Story - ;}
+  Some Quakers in the quakeworld took an abandoned base and used it to play '4on4' team deathmatch matches.
+  The base was already used in the past to play these matches, a guy named Romero placed items in it so clans could combat each other.
+  These items are still there, the areas in the base are now coloured-styled related to those items. Looks nicer and helps new players navigating.
+  The outside pent area also got a paint job and some structural things that make no sense but look weird, I mean artistical sophisticated.
+  You now even want to spend time there while it's not pent time. To swim, for example, or just jump around.
